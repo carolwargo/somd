@@ -56,13 +56,13 @@ const Header = () => {
           <br></br>
           <div className="p-2" id="header-intro">
             <h1>Southern Maryland Baseball Camp</h1>
-            <p>Intro- What is somd baseball?</p>
+            <p>"------------TAGLINE HERE------------"</p>
        
           <h3>2024 Summer Camp & Showcase</h3>
-          <h5>Click the "2024 Showcase" button below to sign up for the 2024 Showcase or </h5>
+          <p>Click the "Register" button below to sign up for the somdbaseball's exclusive "2024 Summer Showcase".</p>
           <br></br>
           <Link to="/graphic-design">
-          <button type="button" class="btn btn-outline-warning">UpComing Events</button>
+          <button type="button" className="btn btn-outline-warning">Register Now</button>
           </Link>
           </div>
        
