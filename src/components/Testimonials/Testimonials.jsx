@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ImageModal from "../ImageModal/ImageModal.jsx";
 
+
 import { HiMagnifyingGlassPlus } from "react-icons/hi2";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -9,18 +10,23 @@ import Oconnor from "../../assets/images/Testimonials/Oconnor.png";
 import Walter from "../../assets/images/Testimonials/Walter.png";
 
 const TestimonialsModal = () => {
-  const [showModal, setShowModal] = useState(false);
+  const [floydModal, setFloydModal] = useState(false);
+  const [walterModal, setWalterModal] = useState(false);
+  const [oconnorModal, setOconnorModal] = useState(false);
+
   const [selectedImage, setSelectedImage] = useState(null);
 
   const handleModalOpen = (image) => {
     setSelectedImage(image);
-    setShowModal(true);
   };
 
   const handleModalClose = () => {
     setSelectedImage(null);
-    setShowModal(false);
+    setFloydModal(false);
+    setWalterModal(false);
+    setOconnorModal(false);
   };
+
   return (
     <main>
       <div className="home-testimonial-container bg-secondary-subtle p-2">
@@ -40,51 +46,57 @@ const TestimonialsModal = () => {
           className="row d-flex px-5 text-white text-center position-relative"
           id="home-testimonials"
         >
-          <div
-            className="col-sm-12 col-md-4 col-lg-4"
-            id="home-testimonials-col"
-          >
-            <div className="floyd-testimonial">
-            <img
-              src={Floyd}
-              alt="Floyd"
-              className="clickable-image"
-              style={{ width: "100%", height: "auto" }}
-              onClick={() => handleModalOpen(Floyd)}
-            />
-             <p style={{ fontSize: "10px", color: "blue" }}>
-              <HiMagnifyingGlassPlus /> click image to enlarge
-            </p>
-          
-            {/* ImageModal for Floyd Image */}
-            <ImageModal
-              showModal={showModal}
-              handleModalClose={handleModalClose}
-              imageSrc={selectedImage}
-              altText="Enlarged Floyd Image"
-              title="close"
-            />
-          </div>
-          </div>
+              <div
+        className="col-sm-12 col-md-4 col-lg-4"
+        id="home-testimonials-floyd"
+      >
+        <div className="floyd-testimonial-image">
+          <img
+            src={Floyd}
+            alt="Floyd"
+            className="clickable-image"
+            style={{ width: "100%", height: "auto" }}
+            onClick={() => {
+              handleModalOpen(Floyd);
+              setFloydModal(true);
+            }}
+          />
+          <p style={{ fontSize: "10px", color: "blue" }}>
+            <HiMagnifyingGlassPlus /> click image to enlarge
+          </p>
+
+          {/* ImageModal for Floyd Image */}
+          <ImageModal
+            showModal={floydModal}
+            handleModalClose={handleModalClose}
+            imageSrc={selectedImage}
+            altText="Enlarged Floyd Image"
+            title="close"
+          />
+        </div>
+      </div>
 
           <div
-            id="home-testimonials-col"
+            id="home-testimonials-walter"
             className="col-sm-12 col-md-4 col-lg-4"
           >
-            <div className="walter-testimonial">
+            <div className="walter-testimonial-image">
             <img
               src={Walter}
               alt="Walter"
               className="clickable-image"
               style={{ width: "100%", height: "auto" }}
-              onClick={() => handleModalOpen(Walter)}
+              onClick={() => {
+                handleModalOpen(Walter);
+                setWalterModal(true);
+            }}
             />
               <p style={{ fontSize: "10px", color: "blue" }}>
               <HiMagnifyingGlassPlus /> click image to enlarge
             </p>
             {/* ImageModal for Walter Image */}
             <ImageModal
-              showModal={showModal}
+              showModal={walterModal}
               handleModalClose={handleModalClose}
               imageSrc={selectedImage}
               altText="Enlarged Walter Image"
@@ -94,23 +106,26 @@ const TestimonialsModal = () => {
             </div>
 
           <div
-            id="home-testimonials-col"
+            id="home-testimonials-oconnor"
             className="col-sm-12 col-md-4 col-lg-4"
           >
-            <div className="oconnor-testimonial">
+            <div className="oconnor-testimonial-image">
             <img
               src={Oconnor}
               alt="Oconnor"
               className="clickable-image"
               style={{ width: "100%", height: "auto" }}
-              onClick={() => handleModalOpen(Oconnor)}
+              onClick={() => {
+                handleModalOpen(Oconnor);
+                setOconnorModal(true);
+              }}
             />
               <p style={{ fontSize: "10px", color: "blue" }}>
               <HiMagnifyingGlassPlus /> click image to enlarge
             </p>
             {/* ImageModal for Oconnor Image */}
             <ImageModal
-              showModal={showModal}
+              showModal={oconnorModal}
               handleModalClose={handleModalClose}
               imageSrc={selectedImage}
               altText="Enlarged Oconnor Image"
