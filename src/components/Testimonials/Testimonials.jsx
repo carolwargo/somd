@@ -3,8 +3,7 @@ import ImageModal from "../ImageModal/ImageModal.jsx";
 
 
 import { HiMagnifyingGlassPlus } from "react-icons/hi2";
-import { FaLongArrowAltRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 import Floyd from "../../assets/images/Testimonials/Floyd.png";
 import Oconnor from "../../assets/images/Testimonials/Oconnor.png";
 import Walter from "../../assets/images/Testimonials/Walter.png";
@@ -48,14 +47,14 @@ const TestimonialsModal = () => {
         >
               <div
         className="col-sm-12 col-md-4 col-lg-4"
-        id="home-testimonials-floyd"
+        id="testimonial-floyd"
       >
         <div className="floyd-testimonial-image">
           <img
             src={Floyd}
             alt="Floyd"
             className="clickable-image"
-            style={{ width: "100%", height: "auto" }}
+            style={{ width: "90%", height: "auto" }}
             onClick={() => {
               handleModalOpen(Floyd);
               setFloydModal(true);
@@ -77,7 +76,7 @@ const TestimonialsModal = () => {
       </div>
 
           <div
-            id="home-testimonials-walter"
+            id="testimonial-walter"
             className="col-sm-12 col-md-4 col-lg-4"
           >
             <div className="walter-testimonial-image">
@@ -85,7 +84,7 @@ const TestimonialsModal = () => {
               src={Walter}
               alt="Walter"
               className="clickable-image"
-              style={{ width: "100%", height: "auto" }}
+              style={{ width: "90%", height: "auto" }}
               onClick={() => {
                 handleModalOpen(Walter);
                 setWalterModal(true);
@@ -106,7 +105,7 @@ const TestimonialsModal = () => {
             </div>
 
           <div
-            id="home-testimonials-oconnor"
+            id="testimonial-oconnor"
             className="col-sm-12 col-md-4 col-lg-4"
           >
             <div className="oconnor-testimonial-image">
@@ -114,7 +113,7 @@ const TestimonialsModal = () => {
               src={Oconnor}
               alt="Oconnor"
               className="clickable-image"
-              style={{ width: "100%", height: "auto" }}
+              style={{ width: "90%", height: "auto" }}
               onClick={() => {
                 handleModalOpen(Oconnor);
                 setOconnorModal(true);
@@ -134,22 +133,10 @@ const TestimonialsModal = () => {
             </div>
           </div>
         </div>
-        <br></br>
-        <div className='link-testimonials-page text-center'>
-        <p className=' text-center'> Want to see more of what past participants have to say about the impact Southern Maryland Baseball Camps.
-        </p>
-               <p>
-                <Link to='/testimonials'
-                className='px-2 align-items-bottom text-center' 
-                style={{fontSize: '12px'}} >
-                  View more testimonial statements 
-                  <FaLongArrowAltRight/> 
-                    </Link>
-                    </p> 
-        </div>
+    
        
       </div>
-      <br></br>
+     
     </main>
   );
 };

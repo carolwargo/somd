@@ -1,13 +1,13 @@
 import React from 'react';
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import Floyd from '../assets/images/Testimonials/Floyd.png'
+import TimeToShine from '../assets/images/TimeToShine.png';
 import Testimonials from '../components/Testimonials/Testimonials.jsx';
 
 const Home = () => {
     return (
         <main> 
-        <h1>Home</h1>
+        <h1 className='text-center'>HomePage</h1>
      
 
         <div className='home-about-container bg-secondary-subtle p-2'>
@@ -31,12 +31,45 @@ const Home = () => {
             </div>
             
                 <div className='col-sm-12 col-md-4 col-lg-4'>
-<img src={Floyd} alt='Floyd' style={{ width: '100%', height: 'auto' }} />
+                <Link to="/registration">
+  <img
+    src={TimeToShine}
+    alt='TimeToShine'
+    style={{
+      width: '100%',
+      height: 'auto',
+      padding: '.25rem',
+      backgroundColor: 'black',
+      boxShadow: '0.5px 0.5px 2px 0px black',
+      transition: 'opacity 0.3s ease-in-out, transform 0.3s ease-in-out', // Add this line for the transitions
+    }}
+    // Add the following lines for hover effect
+    onMouseOver={(e) => {
+      e.currentTarget.style.opacity = '0.8';
+      e.currentTarget.style.transform = 'scale(1.1)';
+    }}
+    onMouseOut={(e) => {
+      e.currentTarget.style.opacity = '1';
+      e.currentTarget.style.transform = 'scale(1)';
+    }}
+  />
+</Link>
             </div>
             </div>
             </div>
 <Testimonials/>
-
+<div className='link-testimonials-page text-center'>
+        <p className=' text-center'> Want to see more of what past participants have to say about the impact Southern Maryland Baseball Camps.
+        </p>
+               <p>
+                <Link to='/testimonials'
+                className='px-2 align-items-bottom text-center' 
+                style={{fontSize: '12px'}} >
+                  View more testimonial statements 
+                  <FaLongArrowAltRight/> 
+                    </Link>
+                    </p> 
+        </div>
             </div>
 
         </main>
