@@ -11,14 +11,13 @@ import {
 
 export default function Programs() {
   return (
-    <div className="drafted justify-content-around ">
+    <div className="d1-programs justify-content-around ">
       
       <MDBContainer className="p-2">
         <MDBRow className="pt-5">
-        <MDBCol className="col-sm-12 col-md-8 col-lg-8 p-3 pt-3 border border-secondary-subtle">
+        <MDBCol className="col-sm-12 col-md-12 col-lg-12 p-3 pt-3 border border-secondary-subtle">
         <div className="px-3">
         <h3>Division I Programs</h3>
-            <p>Southern Maryland Baseball Camp Program Participants</p> 
         </div>
             <MDBContainer className="drafted">
               <MDBTable className="drafted-table" style={{ fontSize: "12px" }}>
@@ -27,7 +26,7 @@ export default function Programs() {
                     <th scope="col"></th>
                     <th scope="col">School</th>
                     <th scope="col">Conference</th>
-                    <th scope="col">Achievement Highlight</th>
+                    <th scope="col">Highlight</th>
                   </tr>
                 </MDBTableHead>
                 <MDBTableBody>
