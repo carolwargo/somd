@@ -11,7 +11,8 @@ import {
 
 export default function Programs() {
   return (
-    <div className="d1-programs justify-content-around ">
+    <div className="d1-programs justify-content-around"
+    style={{fontFamily:'sans-serif'}}>
       
       <MDBContainer className="p-2">
         <MDBRow className="pt-5">
@@ -47,7 +48,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Southeastern Conference (SEC)
+                        (SEC)
                       </a>
                     </td>
                     <td>CWS Runner Up</td>
@@ -70,7 +71,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big East Conference
+                        Big East 
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -93,7 +94,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big South Conference
+                        Big South 
                       </a>
                     </td>
 
@@ -117,7 +118,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big South Conference
+                        Big South 
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -140,7 +141,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Atlantic Coast Conference (ACC)
+                        (ACC)
                       </a>
                     </td>
                     <td>12 CWS Appearances</td>
@@ -163,33 +164,10 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Sunbelt Conference
+                        Sunbelt 
                       </a>
                     </td>
                     <td>CWS Title</td>
-                  </tr>
-
-                  <tr>
-                    <th scope="row">7</th>
-                    <td>
-                      <a
-                        href="https://tribeathletics.com/sports/baseball"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        College of William & Mary
-                      </a>
-                    </td>
-                    <td>
-                      <a
-                        href="https://caasports.com/sports/baseball"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Colonial Athletic Association (CAA)
-                      </a>
-                    </td>
-                    <td>Regionals</td>
                   </tr>
 
                   <tr>
@@ -200,7 +178,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Columbia University
+                        Columbia 
                       </a>
                     </td>
                     <td>
@@ -255,7 +233,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Atlantic 10 Conference
+                        Atlantic 10 
                       </a>
                     </td>
                     <td>Super-Regionals</td>
@@ -278,7 +256,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Colonial Athletic Association (CAA)
+                        (CAA)
                       </a>
                     </td>
                     <td>CWS Appearance</td>
@@ -301,7 +279,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Athletic Coast Conference (ACC)
+                       (ACC)
                       </a>
                     </td>
                     <td>3 CWS Appearances</td>
@@ -324,7 +302,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        American Athletic Conference (AAC)
+                        (AAC)
                       </a>
                     </td>
                     <td>Super Regionals</td>
@@ -347,7 +325,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Ohio Valley Conference (OVC)
+                         (OVC)
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -370,7 +348,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Southern Conference (SoCon)
+                        (SoCon)
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -384,7 +362,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        George Mason University
+                        George Mason 
                       </a>
                     </td>
                     <td>
@@ -393,7 +371,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Atlantic 10 Conference
+                        Atlantic 10 
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -407,7 +385,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        George Washington University
+                        George Washington 
                       </a>
                     </td>
                     <td>
@@ -416,7 +394,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Atlantic 10 Conference
+                        Atlantic 10 
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -430,7 +408,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Georgetown University
+                        Georgetown 
                       </a>
                     </td>
                     <td>
@@ -439,7 +417,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big East Conference
+                        Big East 
                       </a>
                     </td>
                     <td>Conference</td>
@@ -462,35 +440,13 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Sunbelt Conference
+                        Sunbelt 
                       </a>
                     </td>
                     <td>Regionals</td>
                   </tr>
 
-                  <tr>
-                    <th scope="row">20</th>
-                    <td>
-                      <a
-                        href="https://uncgspartans.com/sports/baseball"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        UNC Greensboro
-                      </a>
-                    </td>
-                    <td>
-                      <a
-                        href=" https://saa-sports.com/standings.aspx?path=baseball"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        USA South Athletic Conference
-                      </a>
-                    </td>
-                    <td>Regionals</td>
-                  </tr>
-
+                 
                   <tr>
                     <th scope="row">21</th>
                     <td>
@@ -508,7 +464,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        America East Conference
+                        America East 
                       </a>
                     </td>
                     <td>Regional</td>
@@ -522,7 +478,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Harvard University
+                        Harvard 
                       </a>
                     </td>
                     <td>
@@ -545,7 +501,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        High Point University
+                        High Point 
                       </a>
                     </td>
                     <td>
@@ -554,7 +510,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big South Conference
+                        Big South 
                       </a>
                     </td>
                     <td>Conference</td>
@@ -568,7 +524,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Hofstra University
+                        Hofstra 
                       </a>
                     </td>
                     <td>
@@ -577,7 +533,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Colonial Athletic Association (CAA)
+                        (CAA)
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -591,7 +547,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Howard University
+                        Howard 
                       </a>
                     </td>
                     <td>
@@ -600,7 +556,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Mid-Eastern Athletic Conference (MEAC)
+                     (MEAC)
                       </a>
                     </td>
                     <td>Conference</td>
@@ -614,7 +570,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Indiana University
+                        Indiana 
                       </a>
                     </td>
                     <td>
@@ -623,7 +579,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big Ten Conference
+                        Big Ten 
                       </a>
                     </td>
                     <td>CWS Appearance</td>
@@ -646,7 +602,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Southeastern Conference (SEC)
+                        (SEC)
                       </a>
                     </td>
                     <td>CWS Title</td>
@@ -669,7 +625,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big Ten Conference
+                        Big Ten
                       </a>
                     </td>
                     <td>Super Regionals</td>
@@ -683,7 +639,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Jackson State College
+                        Jackson State 
                       </a>
                     </td>
                     <td>
@@ -692,7 +648,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Southwestern Athletic Conference (SWAC)
+                        (SWAC)
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -706,7 +662,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        James Madison University
+                        James Madison 
                       </a>
                     </td>
                     <td>
@@ -715,7 +671,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Sunbelt Conference
+                        Sunbelt
                       </a>
                     </td>
                     <td>CWS Appearance</td>
@@ -738,7 +694,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Mid-American Conference (MAC)
+                      (MAC)
                       </a>
                     </td>
                     <td>CWS Appearance</td>
@@ -761,10 +717,10 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Southeastern Conference (SEC)
+                       (SEC)
                       </a>
                     </td>
-                    <td>6 CWS Appearances, 1 CWS Title</td>
+                    <td>7 CWS Titles</td>
                   </tr>
 
                   <tr>
@@ -784,7 +740,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Metro Atlantic Athletic Conference (MAAC)
+                       (MAAC)
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -807,7 +763,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big Ten Conference
+                        Big Ten 
                       </a>
                     </td>
                     <td>Super Regionals</td>
@@ -821,7 +777,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Maryland Eastern Shore
+                        UMD Eastern Shore
                       </a>
                     </td>
                     <td>
@@ -830,7 +786,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Mid-Eastern Athletic Conference
+                        (MEAC) 
                       </a>
                     </td>
                     <td>Conference</td>
@@ -853,7 +809,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Atlantic Coast Conference (ACC)
+                        (ACC)
                       </a>
                     </td>
                     <td>3 CWS Appearances</td>
@@ -876,7 +832,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Southland Conference
+                        Southland
                       </a>
                     </td>
                     <td>CWS Appearance</td>
@@ -899,7 +855,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Sunbelt Conference
+                        Sunbelt
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -913,7 +869,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Penn State University
+                        Penn State 
                       </a>
                     </td>
                     <td>
@@ -922,7 +878,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big Ten Conference
+                        Big Ten
                       </a>
                     </td>
                     <td>5 CWS Appearances</td>
@@ -936,7 +892,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Princeton University
+                        Princeton 
                       </a>
                     </td>
                     <td>
@@ -959,7 +915,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Radford University
+                        Radford 
                       </a>
                     </td>
                     <td>
@@ -968,7 +924,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big South Conference
+                        Big South
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -982,16 +938,16 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Southern University
+                        Southern 
                       </a>
                     </td>
                     <td>
                       <a
-                        href="Southwestern Athletic Conference (SWAC)"
+                        href="https://swac.org/sports/baseball"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Southwestern Athletic Conference (SWAC)
+                        (SWAC)
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -1014,7 +970,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Atlantic 10 Conference
+                        Atlantic 10 
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -1028,7 +984,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Stetson University
+                        Stetson 
                       </a>
                     </td>
                     <td>
@@ -1037,7 +993,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Atlantic Sun Conference (ASUN)
+                        (ASUN)
                       </a>
                     </td>
                     <td>Super Regionals</td>
@@ -1060,7 +1016,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Ohio Valley Conference (OVC)
+                        (OVC)
                       </a>
                     </td>
                     <td>Super Regionals</td>
@@ -1083,7 +1039,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Mid-American Conference (MAC)
+                      (MAC)
                       </a>
                     </td>
                     <td>Conference</td>
@@ -1097,7 +1053,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Towson State University
+                        Towson State 
                       </a>
                     </td>
                     <td>
@@ -1106,7 +1062,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Colonial Athletic Association (CAA)
+                       (CAA)
                       </a>
                     </td>
                     <td>Regionals</td>
@@ -1129,11 +1085,35 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        America East Conference
+                        America East
                       </a>
                     </td>
                     <td>Regionals</td>
                   </tr>
+
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>
+                      <a
+                        href="https://uncgspartans.com/sports/baseball"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        UNC Greensboro
+                      </a>
+                    </td>
+                    <td>
+                      <a
+                        href=" https://saa-sports.com/standings.aspx?path=baseball"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        (USASAC)
+                      </a>
+                    </td>
+                    <td>Regionals</td>
+                  </tr>
+
 
                   <tr>
                     <th scope="row">49</th>
@@ -1175,7 +1155,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Atlantic Coast Conference (ACC)
+                        (ACC)
                       </a>
                     </td>
                     <td>CWS Title</td>
@@ -1189,7 +1169,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Virginia Commonwealth University
+                        Virginia Commonwealth 
                       </a>
                     </td>
                     <td>
@@ -1198,7 +1178,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Atlantic 10 Conference
+                        Atlantic 10 
                       </a>
                     </td>
                     <td>Super Regionals</td>
@@ -1221,33 +1201,10 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Atlantic Coast Conference (ACC)
+                        (ACC)
                       </a>
                     </td>
                     <td>Super Regional</td>
-                  </tr>
-
-                  <tr>
-                    <th scope="row">53</th>
-                    <td>
-                      <a
-                        href="https://wagnerathletics.com/sports/baseball"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Wagner
-                      </a>
-                    </td>
-                    <td>
-                      <a
-                        href="https://northeastconference.org/sports/baseball"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Northeast Conference (NEC)
-                      </a>
-                    </td>
-                    <td>Conference</td>
                   </tr>
 
                   <tr>
@@ -1267,7 +1224,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Southern Conference (SoCon)
+                        (SoCon)
                       </a>
                     </td>
                     <td>Conference</td>
@@ -1290,10 +1247,33 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big Ten Conference
+                        Big Ten 
                       </a>
                     </td>
                     <td>Regionals</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">53</th>
+                    <td>
+                      <a
+                        href="https://wagnerathletics.com/sports/baseball"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Wagner
+                      </a>
+                    </td>
+                    <td>
+                      <a
+                        href="https://northeastconference.org/sports/baseball"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        (NEC)
+                      </a>
+                    </td>
+                    <td>Conference</td>
                   </tr>
 
                   <tr>
@@ -1313,10 +1293,33 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Southern Conference (SoCon)
+                       (SoCon)
                       </a>
                     </td>
                     <td>Regional</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>
+                      <a
+                        href="https://tribeathletics.com/sports/baseball"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        William & Mary
+                      </a>
+                    </td>
+                    <td>
+                      <a
+                        href="https://caasports.com/sports/baseball"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        (CAA)
+                      </a>
+                    </td>
+                    <td>Regionals</td>
                   </tr>
 
                   <tr>
@@ -1336,7 +1339,7 @@ export default function Programs() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Big East Conference
+                        Big East
                       </a>
                     </td>
                     <td>Regionals</td>

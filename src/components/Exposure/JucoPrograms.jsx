@@ -15,16 +15,13 @@ export default function Programs() {
     style={{fontFamily:'sans-serif'}}>
       <MDBContainer className="p-2">
         <MDBRow className="pt-5">
-          <MDBCol className="col-sm-12 col-md-12 col-lg-12 pt-3 border border-secondary-subtle">
+          <MDBCol className="col-sm-12 col-md-12 col-lg-12 p-3 pt-3 border border-secondary-subtle">
             <div className="px-3">
-              <h3>Division II Programs</h3>
-              
+              <h3>JUCO Programs</h3>
+             
             </div>
-            <MDBContainer className="d2-programs">
-              <MDBTable
-                className="d2-programs-table"
-                style={{ fontSize: "12px" }}
-              >
+            <MDBContainer className="d3-programs">
+              <MDBTable className="d3-programs" style={{ fontSize: "12px" }}>
                 <MDBTableHead dark>
                   <tr>
                     <th scope="col"></th>
@@ -33,137 +30,145 @@ export default function Programs() {
                   </tr>
                 </MDBTableHead>
                 <MDBTableBody>
-               
+                
 
-                <tr>
-                    <th scope="row">1</th>
-                    <td>
-                      <a
-                        href="https://pacersports.com/sports/baseball"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                       Aiken
-                      </a>
-                    </td>
-                    <td>
-                      <a
-                        href="https://peachbeltconference.org/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                       Peach Belt Conference
-                      </a>
-                    </td>
-                  </tr>
-
+                  {/**d3 */}
 
                   <tr>
                     <th scope="row">1</th>
                     <td>
                       <a
-                        href="https://uahchargers.com/sports/baseball"
+                        href="https://andrewfightingtigers.com/sports/bsb/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Alabama/Huntsville
+                        Andrew College
                       </a>
                     </td>
                     <td>
                       <a
-                        href="https://gscsports.org/news/2024/1/25/2024-gsc-baseball-preseason-team-announced.aspx"
+                        href="https://www.oac.org/sports/bsb/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Gulf South Conference (GSC)
+                       Georgia Collegiate Athletic Association
                       </a>
                     </td>
+                    <td></td>
+                  </tr>
+
+
+                  
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>
+                      <a
+                        href="https://aaccathletics.com/sports/bsb/index"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Anne Arundel Community College
+                      </a>
+                    </td>
+                    <td>
+                      <a
+                        href="https://www.mdjuco.org/sports/bsb/index"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                      (MD JUCO)
+                      </a>
+                    </td>
+                    <td></td>
                   </tr>
 
                   <tr>
                     <th scope="row">2</th>
                     <td>
                       <a
-                        href="https://gocuhawks.com/sports/baseball"
+                        href="https://chattahoocheevalleycc.prestosports.com/sports/bsb/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Chowan College
+                        Chattahoochee Valley
                       </a>
                     </td>
                     <td>
                       <a
-                        href="https://theciaa.com/sports/baseball"
+                        href="https://www.oac.org/sports/bsb/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Central Intercollegiate Athletic Association
+                        Alabama Community College Conference
                       </a>
                     </td>
+                    <td></td>
                   </tr>
 
                   <tr>
                     <th scope="row">3</th>
                     <td>
                       <a
-                        href="https://landerbearcats.com/sports/baseball"
+                        href="https://www.cscougars.com/sports/bsb/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Lander College SC
+                        Cleveland State
                       </a>
                     </td>
                     <td>
                       <a
-                        href="https://peachbeltconference.org/sports/baseball"
+                        href="https://www.landmarkconference.org/sports/bsb/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Peach Belt Conference
+                        (TCCAA)
                       </a>
                     </td>
+                    <td></td>
                   </tr>
 
                   <tr>
                     <th scope="row">4</th>
                     <td>
                       <a
-                        href="https://umotrojans.com/sports/baseball"
+                        href="https://athletics.csmd.edu/sports/bsb/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Mount Olive
+                        College of Southern Maryland
                       </a>
                     </td>
                     <td>
                       <a
-                        href="https://conferencecarolinas.com/sports/baseball"
+                        href="https://www.landmarkconference.org/sports/bsb/index"  
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Conference Carolinas
+                        (MD JUCO)
                       </a>
                     </td>
+                    <td></td>
                   </tr>
 
                   <tr>
                     <th scope="row">5</th>
                     <td>
                       <a
-                        href="https://shepherdrams.com/sports/baseball"
+                        href="https://www.ccbcdundalklions.com/sports/bsb/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Shepard University
+                        Dundalk Community College
                       </a>
                     </td>
                     <td>
                       <a
-                        href="https://psacsports.org/sports/baseball"
+                        href="https://www.landmarkconference.org/sports/bsb/index"  
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Pennsylvania State Athletic Conference
+                        (MD JUCO)
                       </a>
                     </td>
                   </tr>
@@ -172,88 +177,144 @@ export default function Programs() {
                     <th scope="row">6</th>
                     <td>
                       <a
-                        href="https://roarlions.com/sports/baseball/roster"
+                        href="https://www.ccbcessexknights.com/sports/bsb/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        University of North Alabama
+                       Essex Community College
                       </a>
                     </td>
                     <td>
                       <a
-                        href="https://asunsports.org/"
+                        href="https://www.landmarkconference.org/sports/bsb/index"  
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Atlantic Sun Conference
+                        (MD JUCO)
                       </a>
                     </td>
+                    <td></td>
                   </tr>
+
+
 
                   <tr>
                     <th scope="row">7</th>
                     <td>
                       <a
-                        href="https://rockathletics.com/sports/baseball"
+                        href="https://www.njcaa.org/sports/bsb/2002-03/div1/teams/JeffersonDavisCommunityCollege/leaders.html"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Slippery Rock University
+                      Jefferson Davis College
                       </a>
                     </td>
                     <td>
                       <a
-                        href="https://psacsports.org/sports/baseball"
+                        href="https://www.njcaa.org/compete/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Pennsylvania State Athletic Conference
+                        (NJCAA)
                       </a>
                     </td>
+                    <td></td>
                   </tr>
 
+                  
                   <tr>
                     <th scope="row">8</th>
                     <td>
                       <a
-                        href="https://www.tusculumpioneers.com/landing/index"
+                        href="https://www.lchurricanes.com/sports/bsb/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Tusculum
+                        Louisburg College
                       </a>
                     </td>
                     <td>
                       <a
-                        href="https://www.thesac.com/sports/bsb/index"
+                        href="https://www.njcaa.org/compete/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        South Atlantic Conference (SAC)
+                        (NJCAA)
                       </a>
                     </td>
+                    <td></td>
                   </tr>
 
+
+                  
                   <tr>
                     <th scope="row">9</th>
                     <td>
                       <a
-                        href="https://yhcathletics.com/sports/baseball"
+                        href="https://pgccowls.com/sports/bsb/index"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Young Harris College
+                        P.G. Community College
                       </a>
                     </td>
                     <td>
                       <a
-                        href="https://peachbeltconference.org/sports/baseball"
+                        href="https://www.landmarkconference.org/sports/bsb/index"  
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Peach Belt Conference
+                        (MD JUCO)
                       </a>
                     </td>
+                    <td></td>
+                  </tr>
+
+                  
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>
+                      <a
+                        href="https://www.tcceagles.com/sports/bsb/index"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                       Tallahassee Community College
+                      </a>
+                    </td>
+                    <td>
+                      <a
+                        href="https://thefcsaasports.com/sports/bsb/index"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                         Panhandle Conference
+                      </a>
+                    </td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>
+                      <a
+                        href="https://athletics.wallacestate.edu/sports/bsb/index"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                       Wallace State 
+                      </a>
+                    </td>
+                    <td>
+                      <a
+                        href="https://acccathletics.com/sports/bsb/index"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                       (ACCC)
+                      </a>
+                    </td>
+                    <td></td>
                   </tr>
                 </MDBTableBody>
               </MDBTable>

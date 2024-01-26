@@ -11,7 +11,8 @@ import {
 
 export default function Programs() {
   return (
-    <div className="d2-programs justify-content-around ">
+    <div className="d2-programs justify-content-around"
+    style={{fontFamily:'sans-serif'}}>
       <MDBContainer className="p-2">
         <MDBRow className="pt-5">
           <MDBCol className="col-sm-12 col-md-12 col-lg-12 p-3 pt-3 border border-secondary-subtle">
