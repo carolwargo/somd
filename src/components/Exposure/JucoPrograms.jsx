@@ -21,7 +21,7 @@ export default function Programs() {
              
             </div>
             <MDBContainer className="d3-programs">
-              <MDBTable className="d3-programs" style={{ fontSize: "12px" }}>
+              <MDBTable className="d3-programs" style={{ fontSize: "10px" }}>
                 <MDBTableHead dark>
                   <tr>
                     <th scope="col"></th>

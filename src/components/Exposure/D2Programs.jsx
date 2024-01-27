@@ -15,7 +15,7 @@ export default function Programs() {
     style={{fontFamily:'sans-serif'}}>
       <MDBContainer className="p-2">
         <MDBRow className="pt-5">
-          <MDBCol className="col-sm-12 col-md-12 col-lg-12 pt-3 border border-secondary-subtle">
+          <MDBCol className="col-sm-12 col-md-12 col-lg-12 pt-3">
             <div className="px-3">
               <h3>Division II Programs</h3>
               
@@ -23,7 +23,7 @@ export default function Programs() {
             <MDBContainer className="d2-programs">
               <MDBTable
                 className="d2-programs-table"
-                style={{ fontSize: "12px" }}
+                style={{ fontSize: "10px" }}
               >
                 <MDBTableHead dark>
                   <tr>

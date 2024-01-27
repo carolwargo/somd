@@ -20,14 +20,76 @@ export default function Programs() {
         <div className="px-3">
         <h3>Division I Programs</h3>
         </div>
+
+ 
+    <MDBTable bordered striped>
+      <MDBTableHead>
+        <tr>
+          <th scope='col'>#</th>
+          <th scope='col'>First</th>
+          <th scope='col'>Last</th>
+          <th scope='col'>Handle</th>
+        </tr>
+      </MDBTableHead>
+      <MDBTableBody>
+        <tr>
+          <th scope='row'>1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td colSpan={4}>
+            <table className='table mb-0'>
+              <MDBTableHead>
+                <tr>
+                  <th scope='col'>Header</th>
+                  <th scope='col'>Header</th>
+                  <th scope='col'>Header</th>
+                </tr>
+              </MDBTableHead>
+              <MDBTableBody>
+                <tr>
+                  <th scope='row'>A</th>
+                  <td>First</td>
+                  <td>Last</td>
+                </tr>
+                <tr>
+                  <th scope='row'>B</th>
+                  <td>First</td>
+                  <td>Last</td>
+                </tr>
+                <tr>
+                  <th scope='row'>C</th>
+                  <td>First</td>
+                  <td>Last</td>
+                </tr>
+              </MDBTableBody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <th scope='row'>3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </MDBTableBody>
+    </MDBTable>
+  
+
+
+
+
             <MDBContainer className="drafted">
-              <MDBTable className="drafted-table" style={{ fontSize: "12px" }}>
+              <MDBTable small className="drafted-table" >
                 <MDBTableHead dark>
                   <tr>
                     <th scope="col"></th>
                     <th scope="col">School</th>
                     <th scope="col">Conference</th>
                     <th scope="col">Highlight</th>
+               
                   </tr>
                 </MDBTableHead>
                 <MDBTableBody>
@@ -1345,6 +1407,10 @@ export default function Programs() {
                     <td>Regionals</td>
                   </tr>
                 </MDBTableBody>
+
+
+
+                
               </MDBTable>
               <p
                 className="text-center"

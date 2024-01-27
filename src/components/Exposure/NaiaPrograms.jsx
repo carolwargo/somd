@@ -21,7 +21,7 @@ export default function Programs() {
              
             </div>
             <MDBContainer className="naia-programs">
-              <MDBTable className="naia-programs" style={{ fontSize: "12px" }}>
+              <MDBTable className="naia-programs" style={{ fontSize: "10px" }}>
                 <MDBTableHead dark>
                   <tr>
                     <th scope="col"></th>

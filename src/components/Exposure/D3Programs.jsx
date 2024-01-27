@@ -16,12 +16,12 @@ export default function Programs() {
       <MDBContainer className="p-2">
         <MDBRow className="pt-5">
           <MDBCol className="col-sm-12 col-md-12 col-lg-12 p-3 pt-3 border border-secondary-subtle">
-            <div className="px-3">
-              <h3>Division III Programs</h3>
+            <div className="p-3">
+              <h4>Division III Programs</h4>
              
             </div>
             <MDBContainer className="d3-programs">
-              <MDBTable className="d3-programs" style={{ fontSize: "12px" }}>
+              <MDBTable className="d3-programs" style={{ fontSize: "10px" }}>
                 <MDBTableHead dark>
                   <tr>
                     <th scope="col"></th>

@@ -1,4 +1,5 @@
 import React from "react";
+import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 import CoverResize from "../../assets/images/CoverResize.png";
 import { Link } from "react-router-dom";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
@@ -103,6 +104,24 @@ const Header = () => {
             </Link>
           </div>
         </div>
+        <div>
+  <MDBBtn tag='a' color='none' className='m-1' style={{ backgroundColor: '#3b5998' }}>
+    <MDBIcon fab icon='facebook-f' size='lg' />
+  </MDBBtn>
+
+  <MDBBtn tag='a' color='none' className='m-1' style={{ backgroundColor: '#55acee' }}>
+    <MDBIcon fab icon='twitter' size='lg' />
+  </MDBBtn>
+
+  <MDBBtn tag='a' color='none' className='m-1' style={{ backgroundColor: '#dd4b39' }}>
+    <MDBIcon fab icon='google' size='lg' />
+  </MDBBtn>
+
+  <MDBBtn tag='a' color='none' className='m-1' style={{ backgroundColor: '#ac2bac' }}>
+    <MDBIcon fab icon='instagram' size='lg' />
+  </MDBBtn>
+</div>
+
       </div>
     </header>
   );

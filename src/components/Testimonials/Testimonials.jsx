@@ -28,11 +28,16 @@ const TestimonialsModal = () => {
 
   return (
     <main>
-      <div className="home-testimonial-container bg-secondary-subtle p-2">
-        <div className="home-testimonial-intro text-center p-5">
+      <div className="container-home-testimonial"
+      style={{fontFamily:'sans-serif'}}>
+      <div className="row-home-testimonial justify-content-center align-items-center">
+      <div className="col-sm-12 col-md-12 col-lg-12" id="home-testimonial">
+        <div className="home-testimonial-intro ">
           <p className="m-0">SEE WHAT PEOPLE HAVE TO SAY ABOUT...</p>
-          <h2>WHAT PEOPLE HAVE TO SAY ABOUT SOMD BASEBALL!</h2>
-          <p>
+         
+          <h2 className="text-danger">SOMD BASEBALL TESTIMONIALS</h2>
+          <br></br>
+          <p style={{fontFamily:'sans-serif', fontSize:'14px'}}>
             "Discover the stories that define our success. Hear from those who
             have experienced Southern Maryland Baseball Camp firsthand. These
             testimonials reflect the impact we've had on individuals' lives and
@@ -41,8 +46,12 @@ const TestimonialsModal = () => {
             picture of the exceptional opportunities we strive to create."
           </p>
         </div>
+        
+        </div>
+        </div>
+        <br></br>
         <div
-          className="row d-flex px-5 text-white text-center position-relative"
+          className="row d-flex text-white text-center position-relative"
           id="home-testimonials"
         >
               <div
@@ -53,14 +62,16 @@ const TestimonialsModal = () => {
           <img
             src={Floyd}
             alt="Floyd"
-            className="clickable-image"
-            style={{ width: "90%", height: "auto" }}
+            className="clickable-image border border-light"
+            style={{ width: "100%", height: "auto"}}
             onClick={() => {
               handleModalOpen(Floyd);
               setFloydModal(true);
             }}
           />
-          <p style={{ fontSize: "10px", color: "blue" }}>
+          <br></br>
+          <br></br>
+          <p style={{ fontSize: "10px"}}>
             <HiMagnifyingGlassPlus /> click image to enlarge
           </p>
 
@@ -83,14 +94,16 @@ const TestimonialsModal = () => {
             <img
               src={Walter}
               alt="Walter"
-              className="clickable-image"
-              style={{ width: "90%", height: "auto" }}
+              className="clickable-image border border-light"
+              style={{ width: "100%", height: "auto"}}
               onClick={() => {
                 handleModalOpen(Walter);
                 setWalterModal(true);
             }}
             />
-              <p style={{ fontSize: "10px", color: "blue" }}>
+         <br></br>
+            <br></br>
+              <p style={{ fontSize: "10px"}}>
               <HiMagnifyingGlassPlus /> click image to enlarge
             </p>
             {/* ImageModal for Walter Image */}
@@ -112,14 +125,16 @@ const TestimonialsModal = () => {
             <img
               src={Oconnor}
               alt="Oconnor"
-              className="clickable-image"
-              style={{ width: "90%", height: "auto" }}
+              className="clickable-image border border-light"
+              style={{ width: "100%", height: "auto"}}
               onClick={() => {
                 handleModalOpen(Oconnor);
                 setOconnorModal(true);
               }}
             />
-              <p style={{ fontSize: "10px", color: "blue" }}>
+          <br></br>
+            <br></br>
+              <p style={{ fontSize: "10px" }}>
               <HiMagnifyingGlassPlus /> click image to enlarge
             </p>
             {/* ImageModal for Oconnor Image */}
