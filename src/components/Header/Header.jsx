@@ -9,11 +9,9 @@ import "./header.css";
 
 const Header = () => {
   return (
-    <header>
-      <Navbar bg="light" expand="lg" className="navbar px-1">
-        <Navbar.Brand className="nav-brand" href="/">
-          Logo
-        </Navbar.Brand>
+    <header style={{fontFamily:'roboto', fontSize:'12px'}}>
+      <Navbar bg="light" expand="lg" className="navbar px-4">
+    
         <Navbar.Toggle aria-controls="navbarNavDropdown" />
         <Navbar.Collapse id="navbarNavDropdown">
           <Nav className="mr-auto align-items-center">
@@ -52,8 +50,8 @@ const Header = () => {
               id="navbarDropdownMenuLink"
               className="camp-dropdown"
             >
-              <NavDropdown.Item href="/">Players Drafted</NavDropdown.Item>
-              <NavDropdown.Item href="/">Players Signed</NavDropdown.Item>
+              <NavDropdown.Item href="/success">Players Drafted</NavDropdown.Item>
+              <NavDropdown.Item href="/success">Players Signed</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown
@@ -71,7 +69,35 @@ const Header = () => {
               Contact
             </Nav.Link>
           </Nav>
-        </Navbar.Collapse>
+          </Navbar.Collapse>
+      
+        <div className="text-center px-2">
+     
+        <MDBBtn tag='a' color='none' className='m-2' style={{ color: '#00FF00'  }}>
+    <MDBIcon icon='comment' size='lg' />
+  </MDBBtn>
+        <MDBBtn tag='a' color='none' className='m-2' style={{ color: 'blue' }}>
+    <MDBIcon icon='phone' size='lg' />
+  </MDBBtn>
+
+          <MDBBtn tag='a' color='none' className='m-2' style={{ color: '#3b5998' }}>
+        <MDBIcon fab icon='facebook-f' size='lg' />
+      </MDBBtn>
+
+      <MDBBtn tag='a' color='none' className='m-2' style={{ color: '#55acee' }}>
+        <MDBIcon fab icon='twitter' size='lg' />
+      </MDBBtn>
+
+      <MDBBtn tag='a' color='none' className='m-2' style={{ color: '#dd4b39' }}>
+        <MDBIcon fab icon='google' size='lg' />
+      </MDBBtn>
+
+      <MDBBtn tag='a' color='none' className='m-2' style={{ color: '#ac2bac' }}>
+        <MDBIcon fab icon='instagram' size='lg' />
+      </MDBBtn>
+
+          </div>
+        
       </Navbar>
       <div
         id="intro-example"
@@ -104,24 +130,8 @@ const Header = () => {
             </Link>
           </div>
         </div>
-        <div>
-  <MDBBtn tag='a' color='none' className='m-1' style={{ backgroundColor: '#3b5998' }}>
-    <MDBIcon fab icon='facebook-f' size='lg' />
-  </MDBBtn>
-
-  <MDBBtn tag='a' color='none' className='m-1' style={{ backgroundColor: '#55acee' }}>
-    <MDBIcon fab icon='twitter' size='lg' />
-  </MDBBtn>
-
-  <MDBBtn tag='a' color='none' className='m-1' style={{ backgroundColor: '#dd4b39' }}>
-    <MDBIcon fab icon='google' size='lg' />
-  </MDBBtn>
-
-  <MDBBtn tag='a' color='none' className='m-1' style={{ backgroundColor: '#ac2bac' }}>
-    <MDBIcon fab icon='instagram' size='lg' />
-  </MDBBtn>
-</div>
-
+        
+       
       </div>
     </header>
   );

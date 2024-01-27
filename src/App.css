@@ -5,4 +5,17 @@
   background-color: #black;
 }
 
+.top-drafted-card {
+  border: 1px solid black; /* Add a thin black border around the card */
+  border-radius: 1px; /* Optional: Add border-radius for rounded corners */
+}
+
+/* DraftedTable.css */
+
+/* Style to shrink the table */
+.drafted-table {
+  font-size: 0.7rem; /* Adjust the font size as needed */
+}
+
+
 
