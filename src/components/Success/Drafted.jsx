@@ -8,17 +8,20 @@ import {
   MDBCol,
 } from "mdb-react-ui-kit";
 
-//https://www.mlb.com/player/brett-cecil-446399
+
 export default function PlayersDrafted() {
   return (
-    <div className="drafted justify-content-around border border-secondary">
+    <div className="drafted justify-content-around border border-secondary-subtle bg-white">
       <MDBContainer>
-        <MDBRow className="p-2 pt-5">
-          <h3>PLAYERS DRAFTED</h3>
+        <MDBRow className="p-2">
+          <div  className="p-3 text-center bg-danger text-white">
+          <h3 className="mt-3">PLAYERS DRAFTED</h3>
           <p>Southern Maryland Baseball Camp Attendees</p>
+          </div>
+          
           <MDBCol className="p-4" md={6}>
             <MDBContainer className="drafted">
-              <MDBTable className="small drafted-table">
+              <MDBTable striped>
                 <MDBTableHead style={{ fontSize: "12px", padding: "2rem" }}>
                   <tr>
                     <th scope="col">COUNT</th>
@@ -355,7 +358,7 @@ export default function PlayersDrafted() {
 
           <MDBCol className="p-4" md={6}>
             <MDBContainer className="drafted">
-              <MDBTable className="small drafted-table">
+              <MDBTable striped>
                 <MDBTableHead style={{ fontSize: "12px", padding: "2rem" }}>
                   <tr>
                     <th scope="col">COUNT</th>
